@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مباراة اليوم: ريال مدريد ضد باريس سان جيرمان</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Cairo for Arabic typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply Cairo font to the body */
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+        /* Style for the card to have a subtle glow on hover */
+        .match-card:hover {
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+            transform: scale(1.02);
+        }
+        /* Background with a subtle gradient */
+        .gradient-bg {
+            background-color: #111827;
+            background-image: radial-gradient(circle at 1px 1px, #374151 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+        /* Style for the countdown timer */
+        #countdown {
+            transition: background-color 0.5s ease;
+        }
+    </style>
+</head>
+<body class="gradient-bg text-white">
+
+    <div class="container mx-auto px-4 py-8 min-h-screen flex flex-col items-center justify-center">
+
+        <!-- Tournament Header -->
+        <header class="text-center mb-8 animate-fade-in-down">
+            <!-- Trophy Image -->
+            <img src="https://purepng.com/public/uploads/large/purepng.com-gold-trophygolden-trophytrophy-award-winner-981525166649vgn5q.png" 
+                 alt="شعار البطولة" 
+                 class="h-28 mx-auto mb-4"
+                 onerror="this.onerror=null; this.src='https://placehold.co/200x100/1f2937/ffffff?text=Tournament+Logo';">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">كأس العالم للأندية 2025</h1>
+            <p class="text-lg text-gray-400 mt-2">مباراة تحديد المصير</p>
+        </header>
+
+        <!-- Match Card -->
+        <a href="https://patchportlyparking.com/aqyyk5nt?key=316ba512e784bb29eb6b2742101cac61" 
+           id="watch-link" 
+           class="w-full max-w-4xl block group" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           aria-label="اضغط لمشاهدة مباراة ريال مدريد ضد باريس سان جيرمان">
+            <div class="match-card bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 md:p-8 shadow-2xl transition-all duration-300 ease-in-out">
+                
+                <div class="flex items-center justify-around">
+                    
+                    <!-- Team 1: Real Madrid -->
+                    <div class="flex flex-col items-center text-center w-1/3">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png" 
+                             alt="شعار ريال مدريد" 
+                             class="h-24 w-24 md:h-36 md:w-36 object-contain mb-4 transition-transform duration-300 group-hover:scale-110"
+                             onerror="this.onerror=null; this.src='https://placehold.co/150x150/ffffff/000000?text=Real+Madrid';">
+                        <h2 class="text-xl md:text-3xl font-bold">ريال مدريد</h2>
+                    </div>
+                    
+                    <!-- Match Info: VS and Countdown -->
+                    <div class="flex flex-col items-center text-center w-1/3 px-2">
+                        <span class="text-4xl md:text-7xl font-black text-gray-400 group-hover:text-white transition-colors">VS</span>
+                        <!-- Countdown Timer -->
+                        <div id="countdown" class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg text-lg font-bold shadow-lg w-40 text-center tracking-widest">
+                            <!-- JavaScript will populate this -->
+                        </div>
+                    </div>
+                    
+                    <!-- Team 2: Paris Saint-Germain -->
+                    <div class="flex flex-col items-center text-center w-1/3">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png" 
+                             alt="شعار باريس سان جيرمان" 
+                             class="h-24 w-24 md:h-36 md:w-36 object-contain mb-4 transition-transform duration-300 group-hover:scale-110"
+                             onerror="this.onerror=null; this.src='https://placehold.co/150x150/ffffff/000000?text=PSG';">
+                        <h2 class="text-xl md:text-3xl font-bold">باريس سان جيرمان</h2>
+                    </div>
+                    
+                </div>
+
+                <!-- Call to Action Footer -->
+                <div class="mt-8 pt-6 border-t border-gray-700 text-center">
+                    <p class="text-lg font-semibold text-white flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-400"><path d="M20 12V8a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8"/><path d="m22 12-4.5 4.5M17.5 12H22m-4.5 4.5L22 21"/></svg>
+                        اضغط على البطاقة للمشاهدة الآن
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 mt-12">
+            <p>&copy; 2025 جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+
+    <script>
+        const countdownElement = document.getElementById('countdown');
+
+        // Set the target date to 8:00 PM (20:00) of the current day in the user's local timezone.
+        const targetDate = new Date();
+        targetDate.setHours(20, 0, 0, 0); // 20:00:00
+
+        // If the target time has already passed for today, set it for tomorrow.
+        if (new Date() > targetDate) {
+            targetDate.setDate(targetDate.getDate() + 1);
+        }
+
+        const countdownInterval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            // If the countdown is finished
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                countdownElement.innerHTML = "جارية الآن";
+                countdownElement.classList.remove('bg-red-600');
+                countdownElement.classList.add('bg-green-600'); // Change color to green for "Live"
+                return;
+            }
+
+            // Time calculations for hours, minutes and seconds
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Add leading zeros to numbers less than 10 for consistent formatting
+            const formattedHours = hours.toString().padStart(2, '0');
+            const formattedMinutes = minutes.toString().padStart(2, '0');
+            const formattedSeconds = seconds.toString().padStart(2, '0');
+
+            // Display the result in the element
+            countdownElement.innerHTML = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+        }, 1000);
+    </script>
+</body>
+</html>
